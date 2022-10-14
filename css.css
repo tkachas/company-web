@@ -1,0 +1,106 @@
+.back {
+    background-color: rgb(217, 184, 128); width: 100%; height: 150%; position: absolute; left: 0px; top: 0px;
+}
+
+.head {
+    background-color: rgba(66, 95, 87, 0.6); position: absolute; width: 70%; height: 5%; left: 15%; top: 5%;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    display:flex; flex-flow: row wrap; justify-content: space-around; align-content: center;
+    
+}
+
+.head_option {
+    font-family: monospace; color: white; height: 100%; display: flex; justify-content: center; align-items: center; font-size: large;
+}
+.head_link {
+    transition: 0.3s ease; text-decoration: none; color: white; padding: 10px 0;
+    border-bottom: 3px rgba(66, 95, 87, 0.6);
+}
+.head_link:hover {
+    border-bottom: 2px solid white; padding: 5px 0;
+}
+
+.body {
+    background-color: rgb(222, 213, 209); position: relative; width: 70%; height: 70%; top: 15%; left: 15%;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.footer {
+    background-color: rgb(148, 152, 154); position: absolute; width: 100%; height: 10%; top: 90%; left: 0px;
+    box-shadow: 0px -2px 8px rgba(0, 0, 0, 0.4);
+}
+
+.team_body {
+    background-color: rgb(222, 213, 209); position: absolute; width: 70%; height: 70%; top: 15%; left: 15%;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2); 
+}
+.leader {
+    background-color:rgb(167, 167, 151); top: 0px; left:0px;
+    transition: 0.3s ease;
+    width: 100%; height: 40%; position: inherit;
+    color: white; text-decoration-line: overline; font-size:xx-large; font-family: 'Courier New', Courier, monospace; text-align: center; text-align: justify;
+    display: flex; justify-content: space-around; align-items: center; 
+}
+.leader:hover {
+    top: 0.5%; left: 0.5%; width: 99%; height: 39%;
+}
+.members {
+    background-color: rgb(222, 213, 209);width: 100%; height:60%; top: 40%; position: inherit; display: grid; flex-flow: row wrap;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 50% 50%;
+}
+
+.member {
+    background-color: rgba(222, 213, 209, 1); transition: 0.3s ease; border: 0px solid rgb(222, 213, 209); padding: 0px; margin: 0px;
+    grid-column: auto; grid-row: auto;
+    right: 0px;
+}
+
+.member:hover {
+   margin: 1%; 
+}
+
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.9s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .member:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  /* Style the back side */
+  .flip-card-back {
+    background-color: rgb(167, 167, 151);
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+  .boss {
+   margin-left: auto; margin-right: 0px; height: 100%; width: 25%; float: right;
+  }
+  .boss_descript {
+    margin: 25%
+  }
