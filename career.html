@@ -21,7 +21,7 @@
         <div class="body">
             
             <div class="application">
-                <form action="">
+                <form onsubmit="send_email(); reset(); return false;">
                     <div class="career_form">
                         <fieldset>
                             <legend style="text-align: center;">Подать заявку на стажировку в компании</legend>
@@ -53,12 +53,28 @@
                             </div>
                         </fieldset>
                     </div>
-                    <button>Отправить</button>
+                    <button type="submit">Отправить</button>
                 </form>
             </div>
         </div>
 
         <div class="footer"></div>
     </div>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+        function send_email() {
+        Email.send({
+            Host : "smtp.elasticemail.com",
+            Username : "tkachenko@as-personal.ru",
+            Password : "123345fhntv",
+            To : 'tkachenko@as-personal.ru',
+            From : document.getElementById("e-mail").value,
+            Subject : "CV for Internship",
+            Body : "And this is the body"
+        }).then(
+        message => alert(message)
+        );
+        }
+    </script>
 </body>
 </html>
