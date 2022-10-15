@@ -113,9 +113,9 @@ body {
 
 /*-----------------------CAREER SECTION-------------------------*/
 .application {
-  width: 40%; height: 30%; left: 30%; position: inherit; top: 5%; font-family: monospace;
+  width: 40%; height: 60%; left: 30%; position: inherit; top: 5%; font-family: monospace; display: flex;
 }
-.career_form {
+/* .career_form {
     top: 10%; left: 20%; max-height: 20%; display: inline-block;  display: flex; flex-direction: column;
   }
 label {
@@ -129,7 +129,51 @@ label {
 }
 .career_form_inside {
   float: left; width: 70%;
+} */
+
+#career_form {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  padding: 2vw 4vw;
+  width: 90%;
+  max-width: 100%;
+  border-radius: 10px;
 }
+form h3 {
+  color: #555;
+  font-weight: 800;
+  margin-bottom: 20px;
+  font-size: x-large;
+}
+form input {
+   border: 0;
+   margin: 10px 0;
+   padding: 20px;
+   outline: none;
+   background: #f5f5f5;
+   font-size: 16px;
+}
+
+form button {
+  padding: 15px;
+  background:  rgb(148, 152, 154);
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 18px;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  width: 50%;
+  align-self: center;
+  border-radius: 6px;
+  margin: 20px auto 0;
+}
+form button:active {
+  color:black;
+  font-weight: 550;
+}
+
 
 /*-----------------------PRACTICE SECTION-------------------------*/
 .practice-section {

@@ -21,8 +21,17 @@
         <div class="body">
             
             <div class="application">
+                <form id="career_form">
+                    <h3>Подать заявку на стажировку</h3>
+                    <input type="text" id="surname" placeholder="Фамилия" name="surname" required>
+                    <input type="text" id="name" placeholder="Имя" name="name" required>
+                    <input type="text" id="fam-name" placeholder="Отчество" name="fam">
+                    <input type="email" id="e-mail" placeholder="mail@example.ru" name="email" required>
+                    <input type="text" id="cv" placeholder="Ссылка на ваше резюме" name="file">
+                    <button type="submit">Отправить</button>
+                </form>
 <!-- onsubmit="send_email(); reset(); return false; -->
-                <form action="https://formsubmit.co/astkachenko.corp@gmail.com" method="POST">
+                <!-- <form action="https://formsubmit.co/astkachenko.corp@gmail.com" method="POST">
                     <div class="career_form">
                         <fieldset>
                             <legend style="text-align: center;">Подать заявку на стажировку в компании</legend>
@@ -55,7 +64,7 @@
                         </fieldset>
                     </div>
                     <button type="submit">Отправить</button>
-                </form>
+                </form> -->
             </div>
         </div>
 
