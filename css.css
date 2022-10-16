@@ -1,64 +1,129 @@
 body {
-  max-width: 100%; max-height: 100%;
+  max-width: 100%; 
+  max-height: 100%;
+}
+@font-face {
+  font-family: usualText;
+  src: url(font/expressway\ rg.ttf);
+}
+.practice_list {
+  line-height: 1.5;
 }
 
 .back {
-    background-color: rgb(217, 184, 128); width: 100%; height: 150%; position: absolute; left: 0px; top: 0px;
+    background-color: rgb(217, 184, 128);
+    width: 100%; height: 150%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
 }
 
 .head {
-    background-color: rgba(66, 95, 87, 0.6); position: absolute; width: 70%; height: 5%; left: 15%; top: 5%;
+    background-color: rgba(66, 95, 87, 0.6);
+    position: absolute; width: 70%;
+    height: 5%; left: 15%; top: 5%;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
-    display:flex; flex-flow: row wrap; justify-content: space-around; align-content: center;
-    
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: center;
 }
 
 .head_option {
-    font-family: monospace; color: white; height: 100%; display: flex; justify-content: center; align-items: center; font-size: large;
+    font-family: monospace;
+    color: white;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
 }
 .head_link {
-    transition: 0.3s ease; text-decoration: none; color: white; padding: 10px 0;
+    transition: 0.3s ease;
+    text-decoration: none;
+    color: white;
+    padding: 10px 0;
     border-bottom: 3px rgba(66, 95, 87, 0.6);
 }
 .head_link:hover {
-    border-bottom: 2px solid white; padding: 5px 0;
+    border-bottom: 2px solid white;
+    padding: 5px 0;
 }
 
 .body {
-    background-color: rgb(222, 213, 209); position: relative; width: 70%; height: 70%; top: 15%; left: 15%;
+    background-color: rgb(222, 213, 209);
+    position: relative;
+    width: 70%;
+    height: 70%;
+    top: 15%;
+    left: 15%;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
 }
 
 .footer {
-    background-color: rgb(148, 152, 154); position: absolute; width: 100%; height: 10%; top: 90%; left: 0px;
+    background-color: rgb(148, 152, 154);
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    top: 90%;
+    left: 0px;
     box-shadow: 0px -2px 8px rgba(0, 0, 0, 0.4);
 }
 
 /*----------------STAFF SECTION------------------------*/
 
 .team_body {
-    background-color: rgb(222, 213, 209); position: absolute; width: 70%; height: 70%; top: 15%; left: 15%;
+    background-color: rgb(222, 213, 209);
+    position: absolute;
+    width: 70%;
+    height: 70%;
+    top: 15%;
+    left: 15%;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2); 
 }
 .leader {
-    background-color:rgb(167, 167, 151); top: 0px; left:0px;
+    background-color:rgb(167, 167, 151); 
+    top: 0px;
+    left:0px;
     transition: 0.3s ease;
-    width: 100%; height: 40%; position: inherit;
-    color: white; text-decoration-line: overline; font-size:xx-large; font-family: 'Courier New', Courier, monospace; text-align: center; text-align: justify;
-    display: flex; justify-content: space-around; align-items: center; 
+    width: 100%; 
+    height: 40%;
+    position: inherit;
+    color: white;
+    text-decoration-line: overline;
+    font-size:xx-large;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
 }
 .leader:hover {
-    top: 0.5%; left: 0.5%; width: 99%; height: 39%;
+    top: 0.5%;
+    left: 0.5%;
+    width: 99%;
+    height: 39%;
 }
 .members {
-    background-color: rgb(222, 213, 209);width: 100%; height:60%; top: 40%; position: inherit; display: grid; flex-flow: row wrap;
+    background-color: rgb(222, 213, 209);
+    width: 100%;
+    height:60%;
+    top: 40%;
+    position: inherit;
+    display: grid;
+    flex-flow: row wrap;
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: 50% 50%;
 }
 
 .member {
-    background-color: rgba(222, 213, 209, 1); transition: 0.3s ease; border: 0px solid rgb(222, 213, 209); padding: 0px; margin: 0px;
-    grid-column: auto; grid-row: auto;
+    background-color: rgba(222, 213, 209, 1);
+    transition: 0.3s ease;
+    border: 0px solid rgb(222, 213, 209);
+    padding: 0px;
+    margin: 0px;
+    grid-column: auto;
+    grid-row: auto;
     right: 0px;
 }
 
@@ -105,7 +170,11 @@ body {
   }
 
   .boss {
-   margin-left: auto; margin-right: 0px; height: 100%; width: 25%; float: right;
+   margin-left: auto;
+   margin-right: 0px;
+   height: 100%;
+   width: 25%;
+   float: right;
   }
   .boss_descript {
     margin: 25%
@@ -113,43 +182,37 @@ body {
 
 /*-----------------------CAREER SECTION-------------------------*/
 .application {
-  width: 40%; height: 60%; left: 30%; position: inherit; top: 5%; font-family: monospace; display: flex;
+  width: 40%;
+  height: 500px;
+  left: 10%;
+  position: inherit;
+  top: 5%;
+  font-family: monospace;
+  display: flex;
 }
-/* .career_form {
-    top: 10%; left: 20%; max-height: 20%; display: inline-block;  display: flex; flex-direction: column;
-  }
-label {
-  float: left;
-}
-.career_form_input {
-  display: flex; justify-content: space-between; width: 75%;
-}
-.career_form_input_cv {
-  display: flex; justify-content: space-between; width: 100%;
-}
-.career_form_inside {
-  float: left; width: 70%;
-} */
 
 #career_form {
   background: white;
   display: flex;
   flex-direction: column;
   padding: 2vw 4vw;
-  width: 90%;
+  width: 350px;
+  /* height: 450px; */
   max-width: 100%;
   border-radius: 10px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
 }
 form h3 {
   color: #555;
   font-weight: 800;
   margin-bottom: 20px;
   font-size: x-large;
+  text-align: center;
 }
 form input {
    border: 0;
-   margin: 10px 0;
-   padding: 20px;
+   margin: 2% 0;
+   padding: 4%;
    outline: none;
    background: #f5f5f5;
    font-size: 16px;
@@ -173,50 +236,146 @@ form button:active {
   color:black;
   font-weight: 550;
 }
+.career_topic_line {
+  width: 96%;
+  left: 2%;
+  top: 5%;
+  background-color: rgb(92, 91, 91);
+  position: absolute;
+  height: 0.8%;
+  border-radius: 30px;
+}
+.career_topic_endline {
+  width: 96%;
+  left: 2%;
+  background-color: rgb(92, 91, 91);
+  position: absolute;
+  height: 0.4%;
+  border-radius: 30px;
+  bottom: 5%;
+  
+}
+.career_topic-1 {
+  width: 40%;
+  height: 500px;
+  left: 50%;
+  position: absolute;
+  top: 5%;
+  font-family: monospace;
+  color: black;
+}
+.career_lead_heading {
+  font-weight: 500;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px;
+  padding-left: 5%;
+}
+.career_heading {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 500;
+  padding-left: 5%;
+}
+ul {
+  font-family:'Courier New', Courier, monospace;
+  margin: 10%;
+  padding-left: 2%;
+  line-height: 1.2;
+  text-align: justify;
+}
 
+.career_topic-2 {
+  width: 80%;
+  height: 180px;
+  left: 10%;
+  top: 550px;
+  position: absolute;
+  color: black;
+}
+.career_text {
+  font-family:'Courier New', Courier, monospace;
+  padding-left: 0%;
+  padding-right: 5%;
+  line-height: 1.5;
+  text-align: justify;
+}
+.copyright {
+  color: white;
+  font-family: monospace;
+  bottom: 2%;
+  right: 0%;
+  position: absolute;
+  width: 35%;
+  font-size: x-small;
+  text-align: right;
+}
 
 /*-----------------------PRACTICE SECTION-------------------------*/
 .practice-section {
-  width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0); 
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0); 
   display: grid; 
   grid-template-columns: 50% 50%;
   grid-template-rows: 30% 30% 40%;
 }
 .practice {
-  background-color: rgba(0, 0, 0, 1); grid-column: auto; grid-row:auto;  background-color: rgb(148, 152, 154); background-size: 100%;
-  transition: 0.7s ease; text-align:center;
-  color: rgba(255, 255, 255, 1); position: relative;
+  background-color: rgba(0, 0, 0, 1);
+  grid-column: auto;
+  grid-row:auto;
+  background-color: rgb(148, 152, 154);
+  background-size: 100%;
+  transition: 0.7s ease;
+  text-align:center;
+  color: rgba(255, 255, 255, 1);
+  position: relative;
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
 
 }
 .practice_name {
-  position: absolute; height: 40%; width: 80%; left: 10%; top: 30%;font-size: xx-large; 
-  display: flex; align-items: center; justify-content: center; font-family: 'Courier New', Courier, monospace;
+  position: absolute;
+  height: 40%;
+  width: 80%;
+  left: 10%;
+  top: 30%;
+  font-size: xx-large; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Courier New', Courier, monospace;
 }
 .practice:hover {
-  background-color: rgba(0, 0, 0, 0.5); color: rgba(255, 255, 255, 0);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: rgba(255, 255, 255, 0);
 }
 
 .practice_descript {
-  background-color: rgba(255, 255, 255, 0); width: 100%; height: 100%;position: relative;
-  font-family: monospace; font-size: x-large; text-align: justify;
+  background-color: rgba(255, 255, 255, 0);
+  width: 100%;
+  height: 100%;
+  position: relative;
+  font-family: monospace;
+  font-size: x-large;
+  text-align: justify;
   
-  display: flex; flex-flow: column nowrap; justify-content: center; align-items: center;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
   
 }
 .practice_descript, .practice_link {
-  transition: 0.7s; color: rgba(0, 0, 0, 0); font-family: monospace;
+  transition: 0.7s;
+  color: rgba(0, 0, 0, 0);
+  font-family: monospace;
 }
 .practice_link {
-  transform: 0.7; text-decoration: none;
+  transform: 0.7;
+  text-decoration: none;
 }
 .practice_link:hover {
   text-decoration: underline;
 }
 .practice_descript:hover .practice_link{
-  color: white;  background-size: 100%;
-}
-
-.practice_descript_2:hover {
-  color: white; background-image: url("img/disputes2.jpeg"); background-size: 100%;
+  color: white; 
+  background-size: 100%;
 }
