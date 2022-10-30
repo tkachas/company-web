@@ -1,0 +1,91 @@
+body {
+  max-width: 100%; 
+  max-height: 100%;
+}
+.body {
+  background-color: rgb(222, 213, 209);
+  position: relative;
+  width: 70%;
+  height: 70%;
+  top: 15%;
+  left: 15%;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+}
+@font-face {
+  font-family: usualText;
+  src: url(font/expressway\ rg.ttf);
+}
+.practice_list {
+  line-height: 1.5;
+}
+
+.back {
+    background-color: rgb(217, 184, 128);
+    width: 100%; height: 170%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.head {
+    background-color: rgba(66, 95, 87, 0.6);
+    position: absolute;
+    width: 70%;
+    height: 5%;
+    left: 15%;
+    top: 5%;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.head_option {
+    font-family: monospace;
+    color: white;
+    width: 16.66%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:x-large;
+    transition: 0.5s ease;
+}
+.head_option:hover {
+  box-shadow: inset 0px 0px 4px 2px rgba(0, 0, 0, 0.5);
+}
+.head_link {
+    transition: 0.5s ease;
+    text-decoration: none;
+    color: white;
+    padding: 10px 0;
+    border-bottom: 3px rgba(66, 95, 87, 0.6);
+}
+
+.footer {
+    background-color: rgb(148, 152, 154);
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    top: 90%;
+    left: 0px;
+    box-shadow: 0px -2px 8px rgba(0, 0, 0, 0.4);
+}
+.copyright {
+  color: white;
+  font-family: monospace;
+  bottom: 2%;
+  right: 0%;
+  position: absolute;
+  width: 35%;
+  font-size: x-small;
+  text-align: right;
+}
+
+/*----------------STAFF SECTION------------------------*/
+
+
+/*-----------------------CAREER SECTION-------------------------*/
+
+/*-----------------------PRACTICE SECTION-------------------------*/
