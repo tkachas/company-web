@@ -1,6 +1,57 @@
+/* html {
+  cursor: none;
+} */
 body {
   max-width: 100%; 
   max-height: 100%;
+  /* cursor:none; */
+}
+/* .cursor {
+  width: 25px;
+  height: 25px;
+  border: 1px solid black;
+  position: absolute;
+  border-radius: 30px;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+} */
+/* #cursor-click {
+  animation: cursorClick 0.3s linear;
+}
+@keyframes cursorClick {
+  from {background-color: none;}
+  to {background-color: black;}
+}
+#cursor-grow {
+  background-color: black;
+}
+a {
+  cursor: none;
+}
+button {
+  cursor: none;
+}
+input {
+  cursor: none;
+} */
+.halloween {
+  top: -70%;
+  /* background-image: url(../img/halloween.png); */
+  width: 15%;
+  position:absolute;
+  height: 100%;
+  /* background-color: rgba(253, 253, 253, 0.4); */
+  right: 0px;
+  order: 1;
+}
+#halloween {
+  opacity: 1;
+  position: absolute;
+  cursor: pointer;
+}
+#halloween_2 {
+  cursor: pointer;
+  position: absolute;
 }
 .body {
   background-color: rgb(222, 213, 209);
@@ -51,6 +102,7 @@ body {
     align-items: center;
     font-size:x-large;
     transition: 0.5s ease;
+    order: 2;
 }
 .head_option:hover {
   box-shadow: inset 0px 0px 4px 2px rgba(0, 0, 0, 0.5);

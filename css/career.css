@@ -83,7 +83,7 @@
     font-size: 18px;
     border: 0;
     outline: none;
-    cursor: pointer;
+    /* cursor: pointer; */
     width: 50%;
     align-self: center;
     border-radius: 6px;
