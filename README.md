@@ -1,4 +1,4 @@
-# Law firm web-site
+# Law firm web-site*
 (or any other firm, actually, depending on the content)
 
 ## Clickable sections:
@@ -8,3 +8,6 @@
 - Карьера
 
 web-site demo: https://tkachas.github.io/company-web/
+
+
+<sub>*Most of the text is copied from https://rgd.legal/ for demonstration purposes.</sub>
