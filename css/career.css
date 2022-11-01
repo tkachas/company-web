@@ -23,7 +23,7 @@
   }
 .career_topic-1 {
     width: 40%;
-    height: 500px;
+    min-height: 500px;
     left: 50%;
     top: 5%;
     font-family: monospace;
@@ -33,10 +33,10 @@
 }
 .career_topic-2 {
     width: 90%;
-    height: 20%;
+    min-height: 20%;
     color: black;
     margin: 0;
-    align-self:flex-start;
+    position: relative;
 }
 .career_topic_line {
     width: 96%;
@@ -93,7 +93,8 @@
     color:black;
     font-weight: 550;
   }
-  .career_topic_endline {
+
+  /* .career_topic_endline {
     width: 96%;
     left: 2%;
     background-color: rgb(92, 91, 91);
@@ -102,7 +103,7 @@
     border-radius: 30px;
     bottom: 5%;
     
-  }
+  } */
   .career_lead_heading {
     font-weight: 500;
     font-family: 'Courier New', Courier, monospace;
@@ -127,5 +128,6 @@
     padding-right: 5%;
     line-height: 1.5;
     text-align: justify;
+    position: relative;
   }
   
