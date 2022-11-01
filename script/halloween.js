@@ -10,12 +10,12 @@ img_1.addEventListener('click', eyes);
 function eyes() {
     if (img_1.style.opacity == '1') {
         img_1.style.opacity = '0';
-        wolf.play();
+        // wolf.play();
     }
     else if (img_1.style.opacity == '0') {
         img_1.style.opacity = '1';
     } else {
         img_1.style.opacity = '0';
-        wolf.play();
+        // wolf.play();
     }
 }
