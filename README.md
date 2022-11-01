@@ -10,4 +10,4 @@
 web-site demo: https://tkachas.github.io/company-web/
 
 
-<sub>*Most of the content is copied from https://rgd.legal/ for demonstration purposes.</sub>
+<sub>*Most of the text is copied from https://rgd.legal/ for demonstration purposes.</sub>
